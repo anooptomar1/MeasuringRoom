@@ -12,6 +12,12 @@
 		F808963A1F9E747A00588D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F80896381F9E747A00588D33 /* Main.storyboard */; };
 		F808963C1F9E747A00588D33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F808963B1F9E747A00588D33 /* Assets.xcassets */; };
 		F808963F1F9E747A00588D33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F808963D1F9E747A00588D33 /* LaunchScreen.storyboard */; };
+		F80896471F9E758A00588D33 /* ARHoloRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80896461F9E758A00588D33 /* ARHoloRoom.swift */; };
+		F80896491F9E75F500588D33 /* ARHoloRoom.xib in Resources */ = {isa = PBXBuildFile; fileRef = F80896481F9E75F500588D33 /* ARHoloRoom.xib */; };
+		F808964D1F9F133700588D33 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808964C1F9F133700588D33 /* Plane.swift */; };
+		F885A2361FA0F160000043F6 /* SCNVector3Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885A2351FA0F160000043F6 /* SCNVector3Extension.swift */; };
+		F885A2381FA103B5000043F6 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885A2371FA103B5000043F6 /* Line.swift */; };
+		F885A23A1FA1049E000043F6 /* ARSCNViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F885A2391FA1049E000043F6 /* ARSCNViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		F808963B1F9E747A00588D33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F808963E1F9E747A00588D33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F80896401F9E747A00588D33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80896461F9E758A00588D33 /* ARHoloRoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARHoloRoom.swift; sourceTree = "<group>"; };
+		F80896481F9E75F500588D33 /* ARHoloRoom.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARHoloRoom.xib; sourceTree = "<group>"; };
+		F808964C1F9F133700588D33 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
+		F885A2351FA0F160000043F6 /* SCNVector3Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3Extension.swift; sourceTree = "<group>"; };
+		F885A2371FA103B5000043F6 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		F885A2391FA1049E000043F6 /* ARSCNViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSCNViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				F80896341F9E747A00588D33 /* AppDelegate.swift */,
+				F885A2391FA1049E000043F6 /* ARSCNViewExtension.swift */,
+				F80896461F9E758A00588D33 /* ARHoloRoom.swift */,
+				F885A2371FA103B5000043F6 /* Line.swift */,
+				F808964C1F9F133700588D33 /* Plane.swift */,
+				F885A2351FA0F160000043F6 /* SCNVector3Extension.swift */,
 				F80896361F9E747A00588D33 /* ViewController.swift */,
 				F80896381F9E747A00588D33 /* Main.storyboard */,
 				F808963B1F9E747A00588D33 /* Assets.xcassets */,
 				F808963D1F9E747A00588D33 /* LaunchScreen.storyboard */,
 				F80896401F9E747A00588D33 /* Info.plist */,
+				F80896481F9E75F500588D33 /* ARHoloRoom.xib */,
 			);
 			path = MeasuringRoom;
 			sourceTree = "<group>";
@@ -124,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F808963F1F9E747A00588D33 /* LaunchScreen.storyboard in Resources */,
+				F80896491F9E75F500588D33 /* ARHoloRoom.xib in Resources */,
 				F808963C1F9E747A00588D33 /* Assets.xcassets in Resources */,
 				F808963A1F9E747A00588D33 /* Main.storyboard in Resources */,
 			);
@@ -136,7 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F885A2361FA0F160000043F6 /* SCNVector3Extension.swift in Sources */,
+				F80896471F9E758A00588D33 /* ARHoloRoom.swift in Sources */,
+				F885A23A1FA1049E000043F6 /* ARSCNViewExtension.swift in Sources */,
 				F80896371F9E747A00588D33 /* ViewController.swift in Sources */,
+				F885A2381FA103B5000043F6 /* Line.swift in Sources */,
+				F808964D1F9F133700588D33 /* Plane.swift in Sources */,
 				F80896351F9E747A00588D33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
